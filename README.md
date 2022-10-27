@@ -2,6 +2,8 @@
 - 🌱 I’m currently learning coding
 - 📫 Dont reach me ... thank you !
 - 🌍 china/shanghai
+- 🤘🏻 crud boy
+- Bolg http://www.newrain.fun
 
 <!---
 newrain-zh/newrain-zh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
