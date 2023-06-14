@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @newrain-zh
 - 🌱 I’m currently learning coding
 - 📫 Dont reach me ... thank you !
-- 🌍 china/shanghai
 - 🤘🏻 crud boy
 - Bolg <i class="fa fa-safari" aria-hidden="true"></i> http://www.newrain.fun
 - 
