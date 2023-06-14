@@ -2,7 +2,6 @@
 - 🌱 I’m currently learning coding
 - 📫 Dont reach me ... thank you !
 - 🤘🏻 crud boy
-- Bolg <i class="fa fa-safari" aria-hidden="true"></i> http://www.newrain.fun
 - 
 
 <!---
