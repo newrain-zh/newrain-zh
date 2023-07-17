@@ -2,7 +2,7 @@
 - 🌱 I’m currently learning coding
 - 📫 Dont reach me ... thank you !
 - 🤘🏻 crud boy
-- alex.sh.cn
+- 💻 alex.sh.cn
 
 <!---
 newrain-zh/newrain-zh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
