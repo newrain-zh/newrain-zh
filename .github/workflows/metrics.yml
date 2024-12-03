@@ -18,5 +18,3 @@ jobs:
           plugin_leetcode: yes                   # 启用 LeetCode 插件
           plugin_leetcode_user: newrain-zh    # 替换成你的 LeetCode 用户名
           plugin_leetcode_sections: solved, skills, recent # 显示的统计部分
-          plugin_leetcode_limit: 2               # 最近解决的题目显示数量
-          plugin_leetcode_ignored_secs: 1        # 忽略最近一秒内的提交
