@@ -16,6 +16,7 @@ jobs:
       - name: 🗳️ Leetcode - LeetCode
         uses: lowlighter/metrics@master
         with:
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.leetcode.svg
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
