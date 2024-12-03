@@ -1,18 +1,7 @@
-name: Metrics
-on:
-  schedule: [{cron: "0 * * * *"}]  # 每小时更新一次
-  workflow_dispatch:  # 允许手动触发
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}  # GitHub token
-          plugin_leetcode: yes                   # 启用 LeetCode 插件
-          plugin_leetcode_user: newrain-zh    # 替换成你的 LeetCode 用户名
-          plugin_leetcode_sections: solved, skills, recent # 显示的统计部分
-          filename: metrics.plugin.leetcode.svg
-
+name: LeetCode
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.leetcode.svg
+  plugin_leetcode: yes
+  plugin_leetcode_sections: solved, skills, recent
+  plugin_leetcode_user: newrain-zh
