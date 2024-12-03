@@ -8,7 +8,7 @@ jobs:
     permissions:
       contents: write
     environment: 
-      name: METRICS_TOKEN
+      name: production
     steps:
       - uses: lowlighter/metrics@latest
         with:
