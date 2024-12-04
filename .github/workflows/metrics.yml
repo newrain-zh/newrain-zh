@@ -10,6 +10,18 @@ jobs:
     environment: 
       name: production
     steps:
+      - name: 🗳️ Leetcode - LeetCode
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+          output_action: none
+          delay: 120
+          user: newrain-zh
+          plugins_errors_fatal: yes
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}    # 使用 GitHub Secrets
@@ -18,8 +30,9 @@ jobs:
           plugin_habits: no                     # 显示编码习惯
           plugin_isocalendar: no               # 显示贡献日历
           
-          # LeetCode 插件配置
-          plugin_leetcode: yes                   # 启用 LeetCode 插件
-          plugin_leetcode_user: newrain-zh    # 替换成你的 LeetCode 用户名
-          plugin_leetcode_sections: solved, skills, recent # 显示的统计部分
-          plugin_leetcod_filename: metrics.plugin.leetcode.svg     
+          # # LeetCode 插件配置
+          # plugin_leetcode: yes                   # 启用 LeetCode 插件
+          # plugin_leetcode_user: newrain-zh    # 替换成你的 LeetCode 用户名
+          # plugin_leetcode_sections: solved, skills, recent # 显示的统计部分
+          # plugin_leetcod_filename: metrics.plugin.leetcode.svg     
+        
