@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # 允许手动触发
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     environment: 
@@ -14,13 +14,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}    # 使用 GitHub Secrets
           # 基础插件
-          plugin_languages: yes                  # 显示编程语言统计
-          plugin_habits: yes                     # 显示编码习惯
-          plugin_isocalendar: yes               # 显示贡献日历
+          plugin_languages: no                  # 显示编程语言统计
+          plugin_habits: no                     # 显示编码习惯
+          plugin_isocalendar: no               # 显示贡献日历
           
           # LeetCode 插件配置
           plugin_leetcode: yes                   # 启用 LeetCode 插件
           plugin_leetcode_user: newrain-zh    # 替换成你的 LeetCode 用户名
           plugin_leetcode_sections: solved, skills, recent # 显示的统计部分
-          plugin_leetcode_limit: 2               # 最近解决的题目显示数量
-          plugin_leetcode_ignored_secs: 1        # 忽略最近一秒内的提交
+          plugin_leetcod_filename: metrics.plugin.leetcode.svg     
