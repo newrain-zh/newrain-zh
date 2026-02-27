@@ -3,7 +3,6 @@
 
 ### Info
 - 👋 Hi, I’m @newrain-zh
-- 🤘🏻 CRUD boy
 - 💻 alex.sh.cn
 - 📧 zzqnoboy@126.com
 
